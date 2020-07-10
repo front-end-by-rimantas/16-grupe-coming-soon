@@ -24,8 +24,8 @@
             line-height: 22px;
         }
         
-    @media (max-width: 600px) {
-        .clock > .time {
-            width: 50%;
-            margin: 20px 0;
-        }
+@media (max-width: 600px) {
+    .clock > .time {
+        width: 50%;
+    }
+}
