@@ -37,12 +37,27 @@
     .narrow-row > .form {
         margin-bottom: 10px;
     }
+    .about {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .p_about {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgb(146, 146, 146);
+    }
+    .btn {
+        float: right;
+    }
 
 footer.container {
     padding-top: 0;
 }
     footer > .row {
-    text-align: center;
+        text-align: center;
     }
     .icon-list {
         display: inline-block;
