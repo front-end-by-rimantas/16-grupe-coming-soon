@@ -37,7 +37,11 @@
     .narrow-row > .form {
         margin-bottom: 10px;
     }
-    .row {
+
+footer.container {
+    padding-top: 0;
+}
+    footer > .row {
     text-align: center;
     }
     .icon-list {
@@ -47,16 +51,17 @@
         margin-bottom: 40px;
         border-bottom: 2px solid rgba(255,255,255,0.6);
     }
-        .fa {
-            padding: 10px;
-            width: 36px;
+        .icon-list > .fa {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
             cursor: pointer;
             color: #fff;
+            text-decoration: none;
         }
-            .fa:hover {
+            .icon-list > .fa:hover {
                 color: #03A9F3;
                 background-color: #fff;
-                cursor: pointer;
                 border-radius: 50%;
             }
     .footer-logo {
@@ -67,20 +72,38 @@
     }
     .footer-text {
         display: inline-block;
-        margin:0 calc( 50% - 300px );
-        width: 600px;
         line-height: 25px;
         color: rgba(255,255,255,0.6);
     }
+        .footer-text > p {
+            display: inline-block;
+            padding: 0 10px;
+            border-right: 1px solid #fff;
+            line-height: 17px;
+        }
+            .footer-text > p:last-child {
+                border-right: none;
+            }
         .footer-link {
             text-decoration: none;
             color: #fff;
             cursor: pointer;
             }
     .footer-paragraph {
-        width: 600px;
         display: inline-block;
+        width: 600px;
+        margin: 0 calc(50% - 300px);
         color: rgba(255,255,255,0.6);
-        margin:0 calc( 50% - 300px );
         line-height: 25px;
     }
+
+@media ( max-width: 700px ) {
+    .footer-text > p {
+        width: 100%;
+        border: none;
+    }
+    .footer-paragraph {
+        width: 100%;
+        margin: 0;
+    }
+}
