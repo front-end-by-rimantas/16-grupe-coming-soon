@@ -30,5 +30,26 @@
             display: inline-block;
             width: 85%;
             height: 100%;
-            background-color: #36f;
         }
+            .progress-bar > .bar > .value > .loader {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                background-color: #36f;
+                animation: loading 3s linear forwards;
+            }
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    10% {
+        width: 20%;
+    }
+    70% {
+        width: 65%;
+    }
+    100% {
+        width: 100%;
+    }
+}
