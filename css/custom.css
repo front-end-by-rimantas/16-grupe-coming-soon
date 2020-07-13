@@ -37,3 +37,88 @@
     .narrow-row > .form {
         margin-bottom: 10px;
     }
+    .about {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .p_about {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgb(146, 146, 146);
+    }
+    .btn {
+        float: right;
+    }
+
+footer.container {
+    padding-top: 0;
+}
+    footer > .row {
+        text-align: center;
+    }
+    .icon-list {
+        display: inline-block;
+        width: 100%;
+        padding: 20px 0;
+        margin-bottom: 40px;
+        border-bottom: 2px solid rgba(255,255,255,0.6);
+    }
+        .icon-list > .fa {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+        }
+            .icon-list > .fa:hover {
+                color: #03A9F3;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+    .footer-logo {
+        width: 200px;
+        margin:0 calc( 50% - 100px );
+        object-fit: contain;
+        margin-bottom: 40px;
+    }
+    .footer-text {
+        display: inline-block;
+        line-height: 25px;
+        color: rgba(255,255,255,0.6);
+    }
+        .footer-text > p {
+            display: inline-block;
+            padding: 0 10px;
+            border-right: 1px solid #fff;
+            line-height: 17px;
+        }
+            .footer-text > p:last-child {
+                border-right: none;
+            }
+        .footer-link {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            }
+    .footer-paragraph {
+        display: inline-block;
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+        color: rgba(255,255,255,0.6);
+        line-height: 25px;
+    }
+
+@media ( max-width: 700px ) {
+    .footer-text > p {
+        width: 100%;
+        border: none;
+    }
+    .footer-paragraph {
+        width: 100%;
+        margin: 0;
+    }
+}
