@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-blue {
     background-color: #03A9F5;
 }
@@ -58,6 +62,7 @@ footer.container {
 }
     footer > .row {
         text-align: center;
+        position: relative;
     }
     .icon-list {
         display: inline-block;
@@ -110,6 +115,20 @@ footer.container {
         margin: 0 calc(50% - 300px);
         color: rgba(255,255,255,0.6);
         line-height: 25px;
+    }
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        top: -24px;
+        right: -12px;
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        text-decoration: none;
     }
 
 @media ( max-width: 700px ) {
