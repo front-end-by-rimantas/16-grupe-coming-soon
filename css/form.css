@@ -1,0 +1,23 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+    .form > input,
+    .form > textarea {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 30px;
+        line-height: 25px;
+        font-size: 18px;
+        border: none;
+        border-bottom: 1px solid #999;
+        outline: none;
+    }
+    .form > textarea {
+        height: 121px;
+        min-height: 95px;
+        max-height: 400px;
+        resize: vertical;
+    }
