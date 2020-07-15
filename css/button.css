@@ -7,5 +7,16 @@
     padding: 10px 20px;
     border-radius: 4px;
     box-shadow: 0 2px 4px #aaa;
+    text-decoration: none;
     cursor: pointer;
 }
+    .btn:hover {
+        background-color: #d62c65;
+        box-shadow: 0 2px 6px #999;
+    }
+    .btn.btn-icon {
+        width: 40px;
+        padding: 0;
+        line-height: 40px;
+        text-align: center;
+    }
