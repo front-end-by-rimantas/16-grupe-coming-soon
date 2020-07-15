@@ -41,6 +41,13 @@ html {
     .narrow-row > .form {
         margin-bottom: 10px;
     }
+        .narrow-row > .form > input {
+            background-color: transparent;
+            color: #fff;
+        }
+        .narrow-row > .form > input::placeholder {
+            color: #fff;
+        }
     .about {
         margin-bottom: 20px;
         font-size: 24px;
@@ -53,9 +60,10 @@ html {
         line-height: 22px;
         color: rgb(146, 146, 146);
     }
-    .btn {
-        float: right;
-    }
+
+.column_right .btn {
+    float: right;
+}
 
 footer.container {
     padding-top: 0;
@@ -140,4 +148,13 @@ footer.container {
         width: 100%;
         margin: 0;
     }
+}
+
+@media ( min-width: 1101px ) {
+    .column_right .form > input {
+        width: 47%;
+    }
+        .column_right .form > input:first-child {
+            margin-right: 6%;
+        }
 }
